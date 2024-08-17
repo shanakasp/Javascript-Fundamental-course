@@ -6,7 +6,6 @@ let person = {
   name: "John",
   age: 30,
   isMarried: false,
-
   greet() {
     console.log(
       `Hello ${this.name}, age is ${this.age}, Civil status: ${this.isMarried}`
