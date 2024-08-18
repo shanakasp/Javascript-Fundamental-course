@@ -1,4 +1,4 @@
-const day = "Tuesday";
+const day = "friday";
 
 switch (day) {
   case "Monday":
@@ -10,5 +10,9 @@ switch (day) {
     break;
 
   case "Wednesday":
+    console.log(`Today is ${day}`);
+    break;
+
+  default:
     console.log(`Today is ${day}`);
 }
