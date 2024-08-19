@@ -2,9 +2,15 @@
 
 console.log("This is the statements.js file.");
 
-let age = prompt("What is your age?");
+let age = 30;
 
 if (age >= 18) {
+  console.log("You are an adult.");
+} else {
+  console.log("You are a minor.");
+}
+
+if (age >= 30) {
   console.log("You are an adult.");
 } else {
   console.log("You are a minor.");
